@@ -21,7 +21,8 @@ def factorial_length(number):
 def main():
     """Driven Function
     """
-    number = 5    digits = factorial_length(number)
+    number = 5
+    digits = factorial_length(number)
     print(f'You have {digits} digits in factorial({number})')
     
 
