@@ -61,6 +61,10 @@ def main():
     """
     TBD: Method DocString
     """
+    # TODO: Enable options for downloading sources
+    # 0i for icarus server <FILE>
+    # -k for kaggle <DATASET>
+    # -s for other server: <SERVER> <FILE>
     # If no arguments are provided, print usage message
     if len(sys.argv) < 2:
         print("Usage: python download_data.py <data_file>")
