@@ -38,4 +38,26 @@ Find the difference between these points:
 - x = (0, 0)
 - y = (4, 4)
 
-Distance = 5.6565
+Distance = 5.6565...
+
+```python
+# see
+def euclidean_distance()
+```
+
+
+#### KNN with Jaccard Similiarity Index
+Compares members of two individual sets to determine
+which members are `shared` and which are `distinct`.
+The index measures the similarity between the two sets.
+
+$$
+J(A, B) = \frac{|A \cap B|}{|A \cup B|}
+$$
+
+Ex: $A = {1, 2, 3, 4}$ and $B = {3, 4, 5, 6}$ = $\frac {2}{6}$ or $0.33
+
+```python
+# see
+def jaccard_similarity_normal()
+```
