@@ -44,6 +44,12 @@ def knn_analysis_driver(data_df, base_case, comparison_type, metric_func, sorted
     
     # Sort return values from function stub
     # Jaccard needs to be sorted in descending order
+    if 'jaccard' in metric_func.__name__:
+        sorted_df = df.sort_values(by=sorted_value, ascending=False)
+    else:
+        # default is ascending = True
+        sorted_df = df.sort_values(by=sorted_value)
+    
     sorted_df = df.sort_values(by=sorted_value)
     sorted_df.drop(BASE_CASE_ID, inplace=True)  # drop base case
 
