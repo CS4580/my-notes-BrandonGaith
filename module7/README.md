@@ -9,7 +9,7 @@ Metrics should be `unbiased`, universal, and consise.
 2. A way to measure the performance
 3. A way to measure prediction.
 
-For our sample analysis we will use `KNN` K-nearest Neighbor
+For our sample analysis we will use `KNN` K-Nearest Neighbor
 - `K` is an arbitrary pick
 - Need a `base case`
 - Compare the neighbors
