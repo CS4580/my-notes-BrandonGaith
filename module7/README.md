@@ -104,3 +104,8 @@ Result is 3 edits, so the distances is $ = 3$
 # see
 def knn_levenshtein_title()
 ```
+Need this package
+```bash
+# VE must be running python 3.11 or less
+pip install Levenshtein
+```
